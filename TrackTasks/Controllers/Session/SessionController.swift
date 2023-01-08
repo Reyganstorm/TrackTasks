@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SessionController.swift
 //  TrackTasks
 //
 //  Created by Руслан Штыбаев on 08.01.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SessionController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-
