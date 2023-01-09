@@ -11,7 +11,10 @@ class SessionController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "High Intensity Cardio"
+        
+        addNavBarButton(at: .left, with: "Pause")
+        addNavBarButton(at: .right, with: "Finish")
     }
 
 
