@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E84C1413296C5D330088EE43 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C1412296C5D330088EE43 /* SecondaryButton.swift */; };
 		E8B26DEA296B1E5C00F67A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B26DE9296B1E5C00F67A76 /* AppDelegate.swift */; };
 		E8B26DEC296B1E5C00F67A76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B26DEB296B1E5C00F67A76 /* SceneDelegate.swift */; };
 		E8B26DEE296B1E5C00F67A76 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B26DED296B1E5C00F67A76 /* OverviewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E84C1412296C5D330088EE43 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		E8B26DE6296B1E5C00F67A76 /* TrackTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B26DE9296B1E5C00F67A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B26DEB296B1E5C00F67A76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E84C1411296C5D180088EE43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E84C1412296C5D330088EE43 /* SecondaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E8B26DDD296B1E5C00F67A76 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		E8B26E11296B2E9300F67A76 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				E84C1411296C5D180088EE43 /* Views */,
 				E8B26DED296B1E5C00F67A76 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -247,6 +258,7 @@
 				E8B26E00296B20F200F67A76 /* TabBarController.swift in Sources */,
 				E8B26DEA296B1E5C00F67A76 /* AppDelegate.swift in Sources */,
 				E8B26E16296B2EBD00F67A76 /* SessionController.swift in Sources */,
+				E84C1413296C5D330088EE43 /* SecondaryButton.swift in Sources */,
 				E8B26E19296B2EDE00F67A76 /* ProgressController.swift in Sources */,
 				E8B26E08296B29AF00F67A76 /* NavBarController.swift in Sources */,
 				E8B26E06296B220F00F67A76 /* Resources.swift in Sources */,
