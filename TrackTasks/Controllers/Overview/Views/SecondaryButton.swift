@@ -16,7 +16,6 @@ final class SecondaryButton: UIButton {
         super.init(frame: frame)
         
         addViews()
-        
         layoutViews()
         configure()
     }
