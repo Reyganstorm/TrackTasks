@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		E804F3F3296DBCD300437A32 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804F3F2296DBCD300437A32 /* OverviewNavBar.swift */; };
 		E804F3F6296DBD4900437A32 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804F3F5296DBD4900437A32 /* BaseView.swift */; };
+		E82C381729783E6B0024E97D /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C381629783E6B0024E97D /* WeekView.swift */; };
+		E82C3819297842190024E97D /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C3818297842190024E97D /* WeekdayView.swift */; };
+		E82C381B297846B80024E97D /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C381A297846B80024E97D /* Date + ext.swift */; };
 		E84C1413296C5D330088EE43 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C1412296C5D330088EE43 /* SecondaryButton.swift */; };
 		E8B26DEA296B1E5C00F67A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B26DE9296B1E5C00F67A76 /* AppDelegate.swift */; };
 		E8B26DEC296B1E5C00F67A76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B26DEB296B1E5C00F67A76 /* SceneDelegate.swift */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		E804F3F2296DBCD300437A32 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		E804F3F5296DBD4900437A32 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		E82C381629783E6B0024E97D /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		E82C3818297842190024E97D /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		E82C381A297846B80024E97D /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		E84C1412296C5D330088EE43 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		E8B26DE6296B1E5C00F67A76 /* TrackTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B26DE9296B1E5C00F67A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,9 +73,19 @@
 			path = BaseView;
 			sourceTree = "<group>";
 		};
+		E82C381529783E520024E97D /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				E82C381629783E6B0024E97D /* WeekView.swift */,
+				E82C3818297842190024E97D /* WeekdayView.swift */,
+			);
+			path = WeekView;
+			sourceTree = "<group>";
+		};
 		E84C1411296C5D180088EE43 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E82C381529783E520024E97D /* WeekView */,
 				E84C1412296C5D330088EE43 /* SecondaryButton.swift */,
 				E804F3F2296DBCD300437A32 /* OverviewNavBar.swift */,
 			);
@@ -136,6 +152,7 @@
 			children = (
 				E8B26E02296B218100F67A76 /* UIColor + ext.swift */,
 				E8B26E0E296B2D9C00F67A76 /* UIView + ext.swift */,
+				E82C381A297846B80024E97D /* Date + ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -266,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82C381729783E6B0024E97D /* WeekView.swift in Sources */,
+				E82C381B297846B80024E97D /* Date + ext.swift in Sources */,
 				E8B26E1B296B2EF200F67A76 /* SettingsController.swift in Sources */,
 				E8B26DEE296B1E5C00F67A76 /* OverviewController.swift in Sources */,
 				E804F3F3296DBCD300437A32 /* OverviewNavBar.swift in Sources */,
@@ -279,6 +298,7 @@
 				E8B26E06296B220F00F67A76 /* Resources.swift in Sources */,
 				E8B26E03296B218100F67A76 /* UIColor + ext.swift in Sources */,
 				E804F3F6296DBD4900437A32 /* BaseView.swift in Sources */,
+				E82C3819297842190024E97D /* WeekdayView.swift in Sources */,
 				E8B26E0C296B2BB600F67A76 /* BaseController.swift in Sources */,
 				E8B26DEC296B1E5C00F67A76 /* SceneDelegate.swift in Sources */,
 			);
